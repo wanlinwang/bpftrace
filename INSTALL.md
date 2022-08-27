@@ -287,7 +287,8 @@ sudo apt-get install -y \
   libpcap-dev \
   libgtest-dev \
   libgmock-dev \
-  asciidoctor
+  asciidoctor \
+  libbpf-dev
 git clone https://github.com/iovisor/bpftrace
 mkdir bpftrace/build; cd bpftrace/build;
 cmake -DCMAKE_BUILD_TYPE=Release ..
